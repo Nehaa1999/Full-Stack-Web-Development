@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery</title>
+</head>
+<body>
+	<style>
+img{
+	float: left;
+    height: 400px;
+    width: 400px;
+    margin-top: 1.66%;
+    margin-right: 0.5%;
+    margin-bottom: 1.66%;
+    margin-left: 5%;
+}
+h1{
+	font-size: 50px;
+	text-decoration: underline;
+	text-align: center;
+	text-transform: uppercase;
+}
+body
+{
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANsAAADmCAMAAABruQABAAAAElBMVEX10bf10rb10bj10rT10br10rNvnrj/AAADU0lEQVR4nO2c21bDMAwEe4H//2UeCefYtSWtHFvMvsbW7KRtgLbk8fzN46Y8m2kvsIx17pMGN9yuu3DLDW64XXfhlhvcHG4WhqGkdK1vG24JYNxC2yq79fbhFgHjFtn26uzDLdIXt8i212iBN87qShhuMtxSGG4yXAUYbmfCtnBLA+OWCqvh9mjC3pZ9WS2TCLjh5k4SYWIYbqESuJnH3kZeSriPjNuZ5PvcwllaffF5wu1EGG5nwnA7E4bbmTDcMmC976qF+0iFfB3fJdzau3CT1XHG51bj9dbZhZuqjjM+N+/11VnHGdzs+3CbHOuMzy3t+yXDZkmES76SaB1yPuGSyo9bZbe1XyJY6zbxmbCSnE/ALYOcT/gnbpWvJUmwHnkB4goLk4cD4m6GCbjJwLiFEJ2ldd0E/9+9rVvvvVclGLcQorkUtxj4Jre3wG383nU6oUezkOMtDTE8H9rHX7jN4pQJu9n64iZK2K3ytQS3aZwyYbfKr7caPwPaC7xukdKTGcLGj5uBscODZZm1FrcUhhtuiuA2OWstbikMN9wUuc3NuNFTou32bKycGduZNjp/vhM8hDnbtGFxNwNtrdsEbrRNClO69f7GqeD2hdunlgYabiq3yteSym7u/zXy4Za6fXfIY7dB9yHZ0tf3O9ef7xha3NodktwEwW1ugHStILjNDZCuFQS3uQHStYLgNjdAulaQym5bkF1ptu19tniWW7stbrsHt8+rd42tLW67pN221xy3XYLbx41rq4VT+Z7fuOHmThLBdC3BzVECtyPJuJ1Jvs8tnLXV156npW6LnwO4nQjD7UwYbmfCcDsTtp+bs09z17OZeGHvWF8JQwfc7HOvx03ThB1ws8+9HjdNE3bAzT73etw0TdiB66R97uW49rP8rdxevXt+V3bzkS3N8iO45/ew+l1uguCG227BDbfdghtu4oSrZbn5tl12Tdx7DLcN3So/Jyfu0Xis28T9lXHDzVCS19unXZXdKv98s70XFMZtC8NNhsNNBMNNhsNNBMNNhsNNBDvPbTjCfSY8UcIEfwdIg9vkLNxwEwS3yVm44SYIbpOzOtOWGqfBwm4mmqGCZYFpMG64OStYFpgG44abs4JlgWkwbrg5K1gWtPMDG98lR3yxNzoAAAAASUVORK5CYII=);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button
+{
+  margin:2px;
+  position: absolute; left: 0;bottom:100;
+  text-transform: uppercase;
+   margin-top:1400px;
+ 
+  text-align: right;
+  background-color: #4CAF50;
+  border: outset;
+  color: black;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: black;
+}
+a{
+  margin-top:1400px;
+  top:0
+  margin-left: 1px;
+  margin-bottom: 1px;
+  margin-right: 2px;
+  position: absolute; right: 0;
+  text-transform: uppercase;
+  
+  text-align: right;
+  background-color: #4CAF50;
+  border: outset;
+  color: black;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+	</style>
+	<h1>Gallery</h1>
+      <img src="">
+	  <img src="">
+	  <img src="">
+	  <img src="">
+	  <img src="">
+	  <img src="">
+	  <img src="">
+	  <img src="">
+	  <img src="">
+     <form method="get" action="first.html">
+    <button type="submit">Home</button>
+
+    <a href="index.php?signIn=1">Click here to SignIn</a>
+</form>
+</body>
+</html>
